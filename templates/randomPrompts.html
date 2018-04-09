@@ -1,0 +1,18 @@
+<ion-view title="Random Prompts" id="page2">
+  <ion-content padding="true" class="has-header">
+    <div id="randomPrompts-button-bar1" class="button-bar">
+      <button id="randomPrompts-button5" ng-class="['active': activeSection==1]" ng-click="changeSection(1)" class="button button-positive button-block">1</button>
+      <button id="randomPrompts-button6" ng-class="['active': activeSection==2]" ng-click="changeSection(2)" class="button button-positive button-block">2</button>
+      <button id="randomPrompts-button7" ng-class="['active': activeSection==3]" ng-click="changeSection(3)" class="button button-positive button-block">3</button>
+    </div>
+    <div id="randomPrompts-markdown4" ng-show="activeSection==1" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">An interesting experience you've had at the store.</p>
+    </div>
+    <div id="randomPrompts-markdown6" ng-show="activeSection==2" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">Write about exploring a jungle of your choosing.</p>
+    </div>
+    <div id="randomPrompts-markdown7" ng-show="activeSection==3" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">You have magical powers now. How do you use them?</p>
+    </div>
+  </ion-content>
+</ion-view>
